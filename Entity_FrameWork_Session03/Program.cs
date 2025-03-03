@@ -15,7 +15,7 @@ namespace Entity_FrameWork_Session03
             }
             foreach (var e in dBContext.Employees.OfType<PartTimeEmployee>())
             {
-                
+
             }
         }
     }

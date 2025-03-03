@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Entity_FrameWork_Session03.Contexts
 {
-    internal class RouteDBContext:DbContext
+    internal class RouteDBContext : DbContext
     {
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -31,8 +31,8 @@ namespace Entity_FrameWork_Session03.Contexts
         //TPCC
         public DbSet<Employee> Employees { get; set; }
         public DbSet<FullTimeEmployee> FullTimeEmployees { get; set; }
-        public DbSet<PartTimeEmployee> PartTimeEmployees { get; set;}
+        public DbSet<PartTimeEmployee> PartTimeEmployees { get; set; }
 
-        
+
     }
 }
